@@ -122,12 +122,16 @@
 		background: rgba(0, 0, 0, 0.85);
 		pointer-events: none;
 		opacity: 0;
-		tr.ansition: opacity 0.6s;
+		transition: opacity 0.6s;
 	}
-	
-	.ashade-logo is-retina {
-		border: 1px solid red !important;
+	.ashade-logo.is-retina:hover img {
+		transform: scale(1.2);
 	}
+
+	.ashade-logo.is-retina img {
+		transition: transform .5s ease-in-out;
+	}
+
 	.ashade-home-block-overlay {
 		z-index: 16;
 	}
@@ -709,6 +713,26 @@
 		font-size: 14px;
 		line-height: 16px;
 		transition: background 0.3s, border 0.3s;
+	}
+
+	.states-select {
+		margin: 0 0 15px 0;
+		border: 2px solid #313133;
+		overflow: hidden;
+	}
+	
+	.states-select select {
+		overflow: hidden !important;
+		background: transparent;
+    color: gray;
+    all: unset;
+    padding: 15px 20px;
+		font-size: 14px;
+		width: 95%;
+	}
+
+	.states-select select option {
+		border: 1px solid red;
 	}
 	textarea {
 		resize: none;
@@ -1576,7 +1600,7 @@
 		text-align: left;
 	}
 	.ashade-home-link--contacts.ashade-home-link-wrap {
-		left: calc(66.66% + 180px);
+		left: calc(66.66% + 280px);
 		text-align: left;
 		top: 200%;
 	}
