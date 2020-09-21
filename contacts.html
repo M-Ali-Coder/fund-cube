@@ -103,7 +103,7 @@
 							</div><!-- .ashade-contact-details -->
 						</div><!-- .ashade-col -->
 						<div class="ashade-col col-8">
-							<form action="mail.php" method="post" class="ashade-contact-form">
+							<form action="mail.html" method="post" class="ashade-contact-form">
 								<div class="ashade-row ashade-small-gap">
 									<div class="ashade-col col-4">
 										<input type="text" id="name" name="name" placeholder="Your Name" required>
@@ -114,17 +114,28 @@
 									<div class="ashade-col col-4">
 										<input type="tel" id="phone" name="phone" placeholder="Your Phone" required>
 									</div>
-									<div class="col-12">
-										<select name="states">
-											<option value="abu-dhabi" selected>Abu Dhabi</option>
-											<option value="abu-dhabi">Abu Dhabi</option>
-											<option value="abu-dhabi">Abu Dhabi</option>
-											<option value="abu-dhabi">Abu Dhabi</option>
-											<option value="abu-dhabi">Abu Dhabi</option>
-											<option value="abu-dhabi">Abu Dhabi</option>
-											<option value="abu-dhabi">Abu Dhabi</option>
-										</select>
-									</div>
+								</div>
+								<div class="states-select">
+									<select name="states">
+										<option class="states-select-option" selected disabled>Select Emirate</option>
+										<option value="abu-dhabi">Abu Dhabi</option>
+										<option value="ajman">Ajman</option>
+										<option value="ajman">Dubai</option>
+										<option value="fujairah">Fujairah</option>
+										<option value="ras al khaimah">Ras Al Khaimah</option>
+										<option value="sharjah">Sharjah</option>
+										<option value="umm al quwain">Umm Al Quwain</option>
+									</select>
+								</div>
+								<div class="states-select">
+									<select name="states">
+										<option class="states-select-option" selected disabled>Select Type</option>
+										<option value="personal finance ">Personal finance </option>
+										<option value="credit card">Credit card</option>
+										<option value="auto finance">Auto finance</option>
+										<option value="mortgage">Mortgage</option>
+										<option value="SME Loans">SME Loans</option>
+									</select>
 								</div>
 								<textarea name="message" id="message" placeholder="Your Message" required></textarea>
 								<div class="ashade-contact-form__footer">

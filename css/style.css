@@ -727,12 +727,17 @@
     color: gray;
     all: unset;
     padding: 15px 20px;
-		font-size: 14px;
+		font-size: 16px;
 		width: 95%;
 	}
 
 	.states-select select option {
-		border: 1px solid red;
+		background: #191919 !important;
+    color: #fff;
+    font-size: 12px !important;
+	}
+	.states-select select option:hover {
+		background-color: red !important;
 	}
 	textarea {
 		resize: none;
