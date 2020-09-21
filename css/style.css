@@ -281,14 +281,26 @@
 		justify-content: space-around;
 		list-style: none;
 	}
+
+	@media screen and (max-width: 1024px) {
+		.ashade-intro-wrapper ul {
+			flex-direction: column !important;
+		}
+		.ashade-intro-wrapper ul li{
+			text-align: center;
+			margin-bottom: 5px !important
+		}
+	}
 	
 	.ashade-intro-wrapper ul li {
 		margin-right: 10px;
 	}
+
+
 	
 	#ashade-home-works p.ashade-intro,
 	section.ashade-section {
-		margin-bottom: 150px;
+		margin-bottom: 50px;
 		display: block;
 		width: 100%;
 	}
@@ -2455,7 +2467,8 @@
 	.ashade-service-card__content {
 		background: #17171b;
 		margin: -40px 0 0 30px;
-		padding: 66px 29px 28px 29px;
+		padding: 50px 30px;
+		height: 250px;
 	}
 	.ashade-service-card__content p {
 		margin-bottom: 15px;
@@ -2856,7 +2869,7 @@
 	/*  Services page */
 	
 	.ashade-service-card__content p {
-		max-height: 180px;
+		max-height: 150px;
 		overflow-y: auto;
 	}
 	

@@ -132,12 +132,12 @@ class Ashade_Before_After {
 
 // Magic Cursor
 ashade.cursor = {
-	$el : jQuery('.ashade-cursor'),
+	$el : jQuery('.ashade-cursorddd'),
 	$el_main : jQuery('span.ashade-cursor-circle'),
-	targetX: $ashade_window.width()/2,
-	targetY: $ashade_window.height()/2,
-	currentX: $ashade_window.width()/2,
-	currentY: $ashade_window.height()/2,
+	// targetX: $ashade_window.width()/2,
+	// targetY: $ashade_window.height()/2,
+	// currentX: $ashade_window.width()/2,
+	// currentY: $ashade_window.height()/2,
 	easing: 0.2,
 	init : function() {
 		let $this_el = this.$el;
