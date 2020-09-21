@@ -311,9 +311,7 @@
 	.ashade-content section.ashade-section:last-child {
 		margin-bottom: 0;
 	}
-	/* #ashade-home-contacts#about {
-		padding-top: 0 !important;
-	} */
+	
 	#ashade-home-contacts p.ashade-intro {
 		margin-bottom: 80px;
 	}
