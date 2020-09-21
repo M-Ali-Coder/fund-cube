@@ -311,6 +311,9 @@
 	.ashade-content section.ashade-section:last-child {
 		margin-bottom: 0;
 	}
+	/* #ashade-home-contacts#about {
+		padding-top: 0 !important;
+	} */
 	#ashade-home-contacts p.ashade-intro {
 		margin-bottom: 80px;
 	}
@@ -727,7 +730,7 @@
     color: gray;
     all: unset;
     padding: 15px 20px;
-		font-size: 16px;
+		font-size: 14px;
 		width: 95%;
 	}
 
