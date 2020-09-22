@@ -655,6 +655,10 @@ ashade.init = function() {
 		});
 	}
 	
+	// Redirect to home02.html file
+const pathname = location.pathname;
+if (pathname === '/') location.replace('/home02.html')
+
 	// Header Holder
 	$ashade_header_holder = jQuery('<div class="ashade-header-holder"></div>');
 	$ashade_header_holder.height($ashade_header.height()).prependTo($ashade_scroll);
@@ -2025,3 +2029,4 @@ function closeAllSelect(elmnt) {
 /*if the user clicks anywhere outside the select box,
 then close all select boxes:*/
 document.addEventListener("click", closeAllSelect);
+

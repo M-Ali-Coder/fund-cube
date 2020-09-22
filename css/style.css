@@ -759,7 +759,7 @@ textarea {
   display: none;
 }
 
-.select-items div:not(:last-of-type) {
+.select-items div {
 	border-bottom: 1px solid #313133;
 }
 .select-items div:hover,
