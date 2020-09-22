@@ -657,7 +657,7 @@ ashade.init = function() {
 	
 	// Redirect to home02.html file
 const pathname = location.pathname;
-if (pathname === '/') location.replace('/home02.html')
+if (pathname === '/') location.replace('/index.html')
 
 	// Header Holder
 	$ashade_header_holder = jQuery('<div class="ashade-header-holder"></div>');
