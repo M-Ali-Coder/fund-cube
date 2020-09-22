@@ -1309,9 +1309,9 @@ ashade.layout = function() {
 	if (jQuery('#ashade-home-works').length) {
 		jQuery('#ashade-home-works').css('padding-top', $ashade_header.height()+'px');
 	}
-	if (jQuery('#ashade-home-contacts').length) {
-		jQuery('#ashade-home-contacts').css('padding-top', $ashade_header.height()+'px');
-	}
+	// if (jQuery('#ashade-home-contacts').length) {
+	// 	jQuery('#ashade-home-contacts').css('padding-top', $ashade_header.height()+'px');
+	// }
 	
 	// Relayout Masonry items
 	if (jQuery('.is-masonry').length) {
