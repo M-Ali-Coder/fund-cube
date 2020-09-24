@@ -3284,7 +3284,6 @@ p.ashade-intro {
 }
 
 
-.our-services-intro-wrapper .our-services-item:hover {}
 
 .our-services-intro-wrapper .our-services-item img {
   width: 150px;
@@ -3300,24 +3299,5 @@ p.ashade-intro {
 .our-services-intro-wrapper .our-services-item p {
   color: #fff !important;
   text-align: center;
+  ;
 }
-
-/* .our-services-intro-wrapper .our-services-item:nth-child(1) {
-  background-color: #f4a73a;
-}
-
-.our-services-intro-wrapper .our-services-item:nth-child(2) {
-  background-color: #38c275;
-}
-
-.our-services-intro-wrapper .our-services-item:nth-child(3) {
-  background-image: linear-gradient(109.6deg, rgba(121, 203, 202, 1) 11.2%, rgba(119, 161, 211, 1) 91.1%);
-}
-
-.our-services-intro-wrapper .our-services-item:nth-child(4) {
-  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(226, 37, 37, 1) 0%, rgba(211, 49, 49, 1) 82.8%);
-}
-
-.our-services-intro-wrapper .our-services-item:nth-child(5) {
-  background-image: radial-gradient(circle 691px at 23.3% 17.5%, rgba(241, 122, 59, 0.91) 0%, rgba(249, 224, 196, 1) 72.3%);
-} */
