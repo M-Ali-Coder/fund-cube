@@ -1168,8 +1168,9 @@ nav.ashade-nav ul.main-menu li.current-menu-ancestor>a {
 .about-us-intro-grid {
   /* border: 1px solid red; */
   margin-bottom: 80px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 30px;
 }
 
