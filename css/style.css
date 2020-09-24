@@ -3235,3 +3235,24 @@ p.ashade-intro {
   border-bottom: 2px solid #fff;
   color: #fff !important
 }
+
+
+.swiper-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.swiper-container {
+  width: 100%;
+  margin: 100px auto;
+}
+
+.swiper-container img {
+  width: 150px;
+  height: auto;
+}
+
+.swiper-container .swiper-slide {
+  display: flex;
+  align-items: center;
+}

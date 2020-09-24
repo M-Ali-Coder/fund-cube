@@ -11,11 +11,14 @@
 	<link
 		href="https://fonts.googleapis.com/css?family=Montserrat%3A500%2C700%7CRoboto+Condensed:700%7CRoboto%3A700&display=swap"
 		rel="stylesheet">
+		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 	<link rel="stylesheet" href="./css/all.min.css">
 	<link type="text/css" rel="stylesheet" href="css/line-awesome.css">
 	<link type="text/css" rel="stylesheet" href="css/style.css">
 	<link type="text/css" rel="stylesheet" href="css/responsive.css">
 	<link rel="icon" type="image/png" href="./img/logo.ico" />
+
 </head>
 
 <body class="has-spotlight ashade-smooth-scroll">
@@ -139,6 +142,45 @@
 							</div><!-- .ashade-service-card-grid -->
 						</div><!-- .ashade-col -->
 					</div><!-- .ashade-row -->
+				</section>
+
+				<section class="meet-our-prev-works">
+					<div class="swiper-container">
+						<div class="section-header" style="text-align: center;">
+							<h4>Meet Our Previous Experience</h4>
+						</div>
+						<!-- Additional required wrapper -->
+						<div class="swiper-wrapper">
+							<!-- Slides -->
+							<div class="swiper-slide">
+								<img src="./img/adib_bank (1).jpg" alt="" />
+							</div>
+							<div class="swiper-slide">
+								<img src="./img/download (1).png" alt="" />
+							</div>
+							<div class="swiper-slide">
+								<img src="./img/unnamed (1).png" alt="" />
+							</div>
+							<div class="swiper-slide">
+								<img src="./img/adib_bank (1).jpg" alt="" />
+							</div>
+							<div class="swiper-slide">
+								<img src="./img/67dd070efd8c42efd1e9ce1acbaa1024 (1).jpg" alt="" />
+							</div>
+							<div class="swiper-slide">
+								<img src="./img/DIB Logos-03 (1).jpg" alt="" />
+							</div>
+							<div class="swiper-slide">
+								<img src="./img/EF18DD6-FF75-4E0B-99CF-0A48611F899D-logo (1).webp" alt="" />
+							</div>
+							<div class="swiper-slide">
+								<img
+									src="./img/2020-06-18-sharjah-islamic-bank-successfully-prices-500-million-sukuk (1).jpg"
+									alt=""
+								/>
+							</div>
+						</div>
+					</div>
 				</section>
 
 				<section class="ashade-section">
@@ -316,6 +358,37 @@
 	<script src="js/jquery.min.js"></script>
 	<script src="js/gsap.min.js"></script>
 	<script src="js/core.js"></script>
+
+	<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+	<script>
+		var mySwiper = new Swiper(".swiper-container", {
+			// Optional parameters
+			direction: "horizontal",
+			loop: true,
+			autoplay: {
+				delay: 3000,
+			},
+			breakpoints: {
+				// when window width is >= 320px
+				320: {
+					slidesPerView: 2,
+					spaceBetween: 20,
+				},
+				// when window width is >= 480px
+				480: {
+					slidesPerView: 3,
+					spaceBetween: 30,
+				},
+				// when window width is >= 640px
+				640: {
+					slidesPerView: 7,
+					spaceBetween: 30,
+				},
+			},
+		});
+	</script>
 </body>
 
 </html>
